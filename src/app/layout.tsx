@@ -1,9 +1,8 @@
 import type { Metadata } from 'next'
-import './globals.css'
 
 export const metadata: Metadata = {
   title: 'RehearsalsAI | From Backstage to Spotlight Ready',
-  description: 'AI-powered voice coaches that play your toughest audience. Practice, get scored, and perfect your performance before the moment that matters.',
+  description: 'AI-powered voice coaches that play your toughest audience.',
 }
 
 export default function RootLayout({
@@ -13,7 +12,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body style={{ margin: 0, padding: 0 }}>{children}</body>
     </html>
   )
 }
