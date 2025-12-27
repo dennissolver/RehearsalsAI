@@ -1,0 +1,223 @@
+# ===============================
+# DEPENDENCIES
+# ===============================
+node_modules/
+.pnp/
+.pnp.js
+.yarn/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ===============================
+# ENVIRONMENT & SECRETS
+# ===============================
+.env
+.env.*
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+!.env.example
+
+# API keys, credentials, secrets
+*.pem
+*.key
+*.cert
+*.p12
+secrets/
+credentials/
+.credentials
+*.secret
+
+# ===============================
+# NEXT.JS
+# ===============================
+.next/
+out/
+build/
+.swc/
+
+# ===============================
+# VERCEL
+# ===============================
+.vercel/
+.vercel
+
+# ===============================
+# SUPABASE
+# ===============================
+supabase/.branches/
+supabase/.temp/
+.supabase/
+
+# ===============================
+# BUILD & COMPILED
+# ===============================
+dist/
+build/
+*.tsbuildinfo
+next-env.d.ts
+.turbo/
+
+# ===============================
+# TESTING & COVERAGE
+# ===============================
+coverage/
+.nyc_output/
+*.lcov
+.coverage/
+htmlcov/
+jest-results/
+test-results/
+playwright-report/
+playwright/.cache/
+
+# ===============================
+# LOGS & DEBUG
+# ===============================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# ===============================
+# IDE & EDITORS
+# ===============================
+# VSCode
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# JetBrains (PyCharm, WebStorm, IntelliJ)
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+.idea_modules/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*.swn
+*~
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+
+# ===============================
+# OS GENERATED
+# ===============================
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+.fseventsd
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.stackdump
+[Dd]esktop.ini
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ===============================
+# MISC
+# ===============================
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.backup
+*.cache
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Storybook
+storybook-static/
+
+# PWA files
+**/public/sw.js
+**/public/workbox-*.js
+**/public/worker-*.js
+**/public/sw.js.map
+**/public/workbox-*.js.map
+**/public/worker-*.js.map
+
+# Sentry
+.sentryclirc
+
+# Docker
+docker-compose.override.yml
+
+# Husky
+.husky/_
+
+# ESLint cache
+.eslintcache
+
+# Prettier cache
+.prettiercache
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# REPL history
+.node_repl_history
