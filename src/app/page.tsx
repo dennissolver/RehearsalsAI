@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Link from 'next/link';
 
 const verticals = [
   { name: 'RaiseReady', title: 'Founders & Fundraising', description: 'Perfect your investor pitch. AI coaches play the VC, scoring your delivery, emotional transfer, and investment readiness.', icon: '🚀', status: 'live', liveUrl: 'https://raiseready-template.vercel.app', color: '#f59e0b' },
@@ -152,6 +153,64 @@ export default function Home() {
                 )}
               </div>
             ))}
+          </div>
+        </section>
+
+        {/* Association Partnership CTA */}
+        <section style={{ padding: '80px 40px', maxWidth: '1000px', margin: '0 auto' }}>
+          <div style={{
+            padding: '56px 48px',
+            borderRadius: '32px',
+            background: 'linear-gradient(135deg, rgba(139, 92, 246, 0.1) 0%, rgba(168, 85, 247, 0.08) 50%, rgba(139, 92, 246, 0.1) 100%)',
+            border: '1px solid rgba(139, 92, 246, 0.25)',
+            textAlign: 'center'
+          }}>
+            {/* Badge */}
+            <div style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '10px',
+              padding: '12px 24px',
+              marginBottom: '32px',
+              borderRadius: '9999px',
+              background: 'rgba(139, 92, 246, 0.15)',
+              border: '1px solid rgba(139, 92, 246, 0.3)'
+            }}>
+              <span style={{ fontSize: '20px' }}>👥</span>
+              <span style={{ color: '#a78bfa', fontSize: '16px', fontWeight: 600 }}>For Professional Associations</span>
+            </div>
+
+            {/* Heading */}
+            <h2 style={{
+              fontSize: 'clamp(28px, 5vw, 42px)',
+              fontWeight: 400,
+              margin: '0 0 32px',
+              color: 'white',
+              lineHeight: 1.3,
+              maxWidth: '800px',
+              marginLeft: 'auto',
+              marginRight: 'auto'
+            }}>
+              If you are part of a professional association where your members&apos; success or failure depends on how well they present, we can help.
+            </h2>
+
+            {/* Link */}
+            <Link
+              href="/associations"
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '12px',
+                color: '#a78bfa',
+                fontSize: '22px',
+                fontWeight: 600,
+                textDecoration: 'none',
+                transition: 'all 0.3s'
+              }}
+            >
+              Click here to find out how
+              <span style={{ fontSize: '24px', transition: 'transform 0.3s' }}>→</span>
+            </Link>
           </div>
         </section>
 
