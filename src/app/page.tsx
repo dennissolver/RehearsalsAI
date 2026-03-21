@@ -266,17 +266,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Footer */}
-        <footer style={{ padding: '64px 40px', borderTop: '1px solid rgba(255,255,255,0.08)', marginTop: '48px' }}>
-          <div style={{ maxWidth: '1200px', margin: '0 auto', display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center', gap: '28px', fontSize: '20px' }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '14px', color: 'rgba(255,255,255,0.45)' }}>
-              <span style={{ width: '12px', height: '12px', borderRadius: '50%', background: '#f59e0b' }} />
-              REHEARSALS.AI
-            </div>
-            <span style={{ color: 'rgba(255,255,255,0.3)' }}>© 2024 RehearsalsAI. Powered by Corporate AI Solutions.</span>
-            <a href="https://raiseready-template.vercel.app" target="_blank" rel="noopener noreferrer" style={{ color: 'rgba(245, 158, 11, 0.75)', textDecoration: 'none', fontWeight: 500 }}>See RaiseReady →</a>
-          </div>
-        </footer>
+        {/* Footer is provided by the CorporateFooter in layout.tsx */}
       </div>
     </div>
   );

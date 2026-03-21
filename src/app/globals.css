@@ -1,4 +1,12 @@
-/* Minimal reset - all styling is inline in page.tsx */
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-primary: oklch(0.586 0.19 145.71);
+    --font-sans: 'Inter', sans-serif;
+  }
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
